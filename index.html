@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python and Pandas</title>
+    <style>
+        body{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Ciencia de datos.</h1>
+    <h2>¿Que es ciencia de datos?</h2>
+    <p>La ciencia de datos es un campo interdisciplinar que combina conocimientos de estadística, matemáticas, computación, y negocio para extraer conocimientos e ideas de grandes conjuntos de datos estructurados y no estructurados. Se enfoca en desarrollar modelos y algoritmos para analizar y procesar grandes volúmenes de información, y transformarlos en lógicas humanas que apoyen la toma de decisiones.</p>
+    <h3>Caracteristicas de la ciencia de datos</h3>
+    <ul>
+        <li>Utilizar técnicas avanzadas de análisis estadístico y matemático para identificar patrones y relaciones en los datos.</li>
+        <li>Aprovechar la programación computacional para desarrollar modelos y algoritmos que procesen grandes conjuntos de datos.</li>
+        <li>Aplicar técnicas de visualización de datos para comunicar los resultados de manera efectiva.</li>
+        <li>Integrar conocimientos de negocio y dominio para desarrollar soluciones que satisfagan necesidades específicas de la empresa o organización.</li>
+    </ul>
+    <h3>Los científicos de datos trabajan en diferentes industrias, como la empresa, el entretenimiento, la finanza, la sanidad y la administración pública, entre otras. Sus aplicaciones incluyen:</h3>
+    <ul>
+        <li>Análisis de comportamiento del cliente para mejorar la experiencia y aumentar las ventas.</li>
+        <li>Identificación de patrones de riesgo para la prevención de fraudes y vulneraciones de seguridad.</li>
+        <li>Desarrollo de modelos predictivos para la toma de decisiones estratégicas.</li>
+        <li>Mejora de la eficiencia operativa y reducción de costos.</li>
+        <li>Creación de recomendaciones personalizadas para mejorar la satisfacción del cliente.</li>
+    </ul>
+    <p>Para ser un científico de datos, se requieren habilidades en programación (Python, R, SQL), estadística y matemáticas, así como conocimientos en visualización de datos y comunicación efectiva. Algunas herramientas comunes utilizadas en la ciencia de datos incluyen Pandas, NumPy, Scikit-learn, Matplotlib, Tableau, Airflow, Spark y Git.</p>
+    <h2>Python en ciencia de datos.</h2>
+    <h3>Python se ha convertido en uno de los lenguajes de programación más populares en la ciencia de datos debido a varias razones:</h3>
+    <ul>
+        <li><strong>Adaptabilidad y flexibilidad:</strong> Python se puede utilizar con fuentes de datos diferentes y formatos, lo que facilita la integración con otras herramientas y plataformas de datos.</li>
+        <li><strong>Gran comunidad:</strong> Python cuenta con una amplia comunidad de desarrolladores y científicos de datos que constantemente crean nuevas bibliotecas, herramientas y soluciones, lo que proporciona recursos abundantes.</li>
+        <li><strong>Bibliotecas especializadas:</strong> Python dispone de bibliotecas como NumPy, pandas, SciPy, matplotlib, entre otras, que facilitan el trabajo en ciencia de datos, especialmente en análisis estadístico, visualización de datos y machine learning.</li>
+        <li><strong>Facilidad de uso y legibilidad:</strong> Python es un lenguaje fácil de aprender y usar, lo que lo hace accesible para científicos y analistas de datos sin experiencia previa en programación.</li>
+        <li><strong>Capacidad para trabajar con grandes conjuntos de datos:</strong> Python puede manejar grandes conjuntos de datos y realizar operaciones de procesamiento y análisis eficientemente.</li>
+        <li><strong>Integración con algoritmos de machine learning y visualización de datos:</strong> Python admite la implementación de algoritmos de machine learning y visualización de datos, lo que lo hace una excelente opción para la ciencia de datos.</li>
+        <li><strong>Compatibilidad con diferentes plataformas:</strong> Python se puede ejecutar en múltiples plataformas, lo que lo hace versátil y fácil de implementar en diferentes entornos.</li>
+    </ul>
+    <img src="SE9OXzEucG5n.jpg" style="display: block; margin: 0 auto;">
+    <p>En resumen, Python es una excelente opción para la ciencia de datos debido a su facilidad de uso, flexibilidad, capacidad para manejar grandes conjuntos de datos y amplia comunidad de desarrolladores y científicos de datos que lo apoyan.</p>
+    <h1 style="text-align: center;">Pandas.</h1>
+    <h2>¿Que es pandas?</h2>
+    <p>
+        Pandas es una librería de código abierto y muy popular en el lenguaje de programación Python, especializada en la manipulación y el análisis de datos. Ofrece estructuras de datos y operaciones para trabajar con tablas numéricas y series temporales, similar a cómo se hace en el software de hoja de cálculo Excel.
+
+El nombre “Pandas” deriva del término “datos de panel”, utilizado en econometría para describir conjuntos de datos que combina una dimensión temporal con otra dimensional transversal.
+
+Pandas se ha vuelto muy popular en campos como la ciencia de datos, el análisis de inteligencia artificial y el análisis de negocios, debido a su capacidad para:
+    </p>
+    <ul>
+        <li>Manipular y transformar datos de manera eficiente</li>
+        <li>Realizar análisis exploratorios de datos</li>
+        <li>Agrupar y resumir datos</li>
+        <li>Filtrar y seleccionar datos</li>
+        <li>Realizar operaciones de grupo y pivot table</li>
+    </ul>
+    <p><strong>Entre las características clave de Pandas se encuentran:</strong></p>
+    <ul>
+        <li><strong>Series:</strong> una estructura de datos similar a una lista que puede contener cualquier tipo de dato.</li>
+        <li><strong>DataFrame: </strong>una estructura de datos compuesta por columnas y filas, similar a una hoja de cálculo, que permite aplicar operaciones y análisis a grandes conjuntos de datos.</li>
+    </ul>
+    <p>Pandas es una herramienta muy poderosa y flexible que se ha vuelto esencial en el mundo de la ciencia de datos y el análisis de negocios, y es ampliamente utilizada en la industria y la academia.</p>
+    <h2>Funcionamiento de pandas en Python.</h2>
+    <p>Pandas es una librería de Python para el análisis y manipulación de datos, especialmente diseñada para trabajar con conjuntos de datos estructurados, como tablas y matrices. Fue creada por Wes McKinney y es ampliamente utilizada en la comunidad de Data Science y Machine Learning.</p>
+    <h3>Caracteristicas clave.</h3>
+    <p><strong>Alguna de las Caracteristicas clave de pandas incluyen:</strong></p>
+    <ul>
+        <li><strong>Indices: </strong>los DataFrames y series pueden tener índices personalizados, lo que facilita la selección y manipulación de datos.</li>
+        <li><strong>Tipos de datos: </strong>Pandas admite una variedad de tipos de datos, incluyendo numéricos, categóricos, de texto y datetime.</li>
+        <li><Strong>Operaciones vectoriales: </Strong>Pandas proporciona operaciones vectoriales para realizar cálculos y transformaciones en grandes conjuntos de datos.</li>
+        <li><strong>Filtrado y seleccion: </strong>los DataFrames y series permiten filtrar y seleccionar datos utilizando condiciones lógicas y expresiones regulares.</li>
+        <li><strong>Agrupacion y pivot: </strong>los DataFrames permiten agrupar y pivotear datos para realizar análisis y visualizaciones.</li>
+    </ul>
+    <h3>Metodos y funciones.</h3>
+    <p><strong>Algunos metodos y funciones clave de pandas incluyen:</strong></p>
+    <ul>
+        <li><strong>read_csv(): </strong>leer archivos CSV y convertirlos en DataFrames.</li>
+        <li><strong>to_csv(): </strong>escribir DataFrames en archivos CSV.</li>
+        <li><strong>groupby(): </strong>agrupar datos por una o varias columnas y realizar operaciones sobre las agrupaciones.</li>
+        <li><strong>pivot_table(): </strong>crear tablas pivot para realizar análisis y visualizaciones.</li>
+        <li><strong>marge(): </strong>unir DataFrames utilizando claves comunes.</li>
+        <li><strong>dropna(): </strong>eliminar filas o columnas con valores nulos.</li>
+    </ul>
+    <p>En resumen, Pandas es una poderosa librería de Python para el análisis y manipulación de datos, que ofrece estructuras de datos flexibles, operaciones vectoriales y métodos para filtrado, agrupación y pivotado.</p>
+    <h2>Ventajas de la biblioteca pandas.</h2>
+    <ul>
+        <li><strong>Facilidad de uso: </strong>Pandas proporciona una interfaz sencilla y intuitiva para trabajar con datos, lo que facilita la manipulación y el análisis.</li>
+        <li><strong>Proteccion en tiempo real: </strong>Pandas utiliza tecnología de detección en tiempo real para identificar y eliminar amenazas de forma rápida y eficiente.</li>
+        <li><strong>Manejo de matrices en datos: </strong>Pandas se basa en dos estructuras de datos principales: Series y DataFrame, lo que permite manipular y analizar matrices de datos de manera fácil y eficiente.</li>
+        <li><strong>Capacidad para manipular y limpiar datos: </strong>Pandas ofrece funciones para reemplazar valores faltantes, eliminar duplicados y normalizar datos, lo que ayuda a preparar los datos para el análisis.</li>
+        <li><strong>Analisis de datos: </strong>Pandas proporciona funciones para realizar análisis estadísticos, como medias, desviaciones estándar y correlaciones, lo que permite a los usuarios comprender mejor sus datos.</li>
+        <li><strong>Compatibilidad con diferentes tipos de datos: </strong>Pandas admite diferentes tipos de datos, incluyendo fechas, booleanos, strings y números, lo que lo hace útil para trabajar con datos heterogéneos.</li>
+        <li><strong>Integración con otras bibliotecas: </strong>Pandas se integra con otras bibliotecas populares de Python, como NumPy, Matplotlib y Scikit-learn, lo que lo hace una herramienta completa para el análisis de datos.</li>
+        <li><strong>Desempeño alto: </strong>Pandas es una biblioteca de código abierto, lo que significa que es rápida y eficiente, lo que la hace adecuada para grandes conjuntos de datos.</li>
+    </ul>
+    <p>En resumen, las ventajas de Pandas incluyen su facilidad de uso, capacidad para manipular y analizar datos, protección en tiempo real, compatibilidad con diferentes tipos de datos y alta velocidad, lo que lo hace una herramienta valiosa para cualquier profesional que trabaje con datos en Python.</p>
+    <h2>¿Cómo utilizan Pandas los científicos de datos?</h2>
+    <p>Los científicos de datos utilizan Pandas, una biblioteca de Python, para diversas tareas en el análisis y manipulación de datos. Aquí te dejo algunas de las formas más comunes en que se utiliza:</p>
+    <ol>
+        <li><strong>Importacion y exportacion de datos: </strong>Pandas permite importar datos desde múltiples fuentes como archivos CSV, Excel, bases de datos SQL, y más. También facilita la exportación de datos a estos formatos.</li>
+        <li><strong>Limpieza de datos: </strong>Una gran parte del trabajo de un científico de datos es limpiar los datos. Pandas ofrece herramientas para manejar valores faltantes, duplicados y realizar transformaciones necesarias para preparar los datos para el análisis.</li>
+        <li><strong>Analisis exploratorio de datos (EDA): </strong>Pandas permite realizar análisis descriptivos y exploratorios de los datos, como calcular estadísticas básicas (media, mediana, desviación estándar), generar tablas de frecuencia, y crear gráficos simples.</li>
+        <li><strong>Manipulacion de datos: </strong>Con Pandas, los científicos de datos pueden filtrar, agrupar, y transformar datos de manera eficiente. Esto incluye operaciones como la fusión de conjuntos de datos, la creación de nuevas columnas basadas en cálculos, y la reestructuración de datos.</li>
+        <li><strong>Analisis de series temporales: </strong>Pandas es especialmente util para trabajar con datos de series temporales, permitiendo realizar operaciones como resampling, rolling windows y analisis de tendencias.</li>
+        <li><strong>Integracion con otras herramientas: </strong>Pandas se integra bien con otras bibliotecas de python como Numpy, matplotlib y scikit-learn, lo que facilita el flujo de trabajo completo desde la preparacion de datos hasta la modelizacion y visualizacion. </li>
+    </ol>
+    <h2>Que otras alternativas existen similares a Pandas.</h2>
+    <p>Las siguientes bibliotecas y herramientas ofrecen funcionalidades similares a Pandas para el manejo y análisis de datos en Python:</p>
+    <ul>
+        <li><Strong>SciPy: </Strong>Una biblioteca de código abierto para la informática científica y técnica, que incluye módulos para álgebra lineal, interpolación, integración, derivada, procesamiento de imágenes, funciones especiales y otras tareas utilizadas en ingeniería y ciencia.</li>
+        <li><strong>NumPy: </strong>Una biblioteca fundamental para el cálculo numérico en Python, que proporciona soporte para arrays multidimensionales y operaciones vectoriales.</li>
+        <li><strong>Dask: </strong>Una biblioteca que permite trabajar con grandes conjuntos de datos en memoria RAM, utilizando técnicas de paralelismo y chunking para mejorar el rendimiento.</li>
+        <li><strong>Vaex: </strong>Una biblioteca que se centra en el análisis de grandes conjuntos de datos, ofreciendo funcionalidades para la manipulación y visualización de datos.</li>
+        <li><strong>Modin: </strong>Una biblioteca que permite utilizar Pandas con grandes conjuntos de datos, utilizando técnicas de paralelismo y chunking para mejorar el rendimiento.</li>
+        <li><strong>PyTables: </strong>Una biblioteca que proporciona una interfaz para trabajar con archivos de datos HDF5, permitiendo la lectura y escritura de grandes conjuntos de datos.</li>
+    </ul>
+    <p><b>Instaladores de aplicaciones y emuladores.</b></p>
+    <p>Las siguientes aplicaciones y emuladores ofrecen funcionalidades similares a Pandas Helper para descargar contenido no oficial en dispositivos móviles:</p>
+    <ul>
+        <li><strong>TweakDoor: </strong>Un instalador de aplicaciones que contiene todas las modificaciones y ajustes populares.</li>
+        <li><strong>Jojoy: </strong>Un instalador de aplicaciones que ofrece un montón de aplicaciones y ajustes no oficiales, junto con algunos de los mejores emuladores de juegos.</li>
+        <li><strong>TweakBox: </strong>Un instalador de aplicaciones que ofrece funciones adicionales, como GBA4iOS y Unc0ver Jailbreak.</li>
+    </ul>
+    <p><b>Nota: </b>Las alternativas mencionadas anteriormente se centran en el manejo y análisis de datos en Python, mientras que las aplicaciones y emuladores mencionados se enfocan en descargar contenido no oficial en dispositivos móviles.</p>
+    <p><b>Visita mi practica del 14 de septiembre: </b><a href="https://colab.research.google.com/drive/1hYlyByBIYwDJG7HAAgwidgxHZJUHQzHf?authuser=2" target="_blank">Mi practica 14 de septiembre en colab</a></p>
+</body>
+</html>
